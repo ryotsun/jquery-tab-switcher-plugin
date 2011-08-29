@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>tab-switcher readme</title>
+<style>
+  li{list-style-type:none;}
+  .tabs{border:1px solid #000;overflow:hidden;width:400px;}
+  .tabs li{float:left;width:100px;cursor:pointer;}
+  .tab1{clear:both;margin-top:10px;display:block;display:none;}
+  .tab2{clear:both;margin-top:10px;display:block;display:none;}
+  .tab3{clear:both;margin-top:10px;display:block;display:none;}
+  .tab4{clear:both;margin-top:10px;display:block;display:none;}
+  
+  .tabs .selected{background-color:#ff9933;}
+</style>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    //<![CDATA[
+google.load("jquery", "1");    //]]>
+</script>
+
+<script type="text/javascript" src="./tab-switcher.js" charset="UTF-8"></script>
+</head>
+<body>
+<ul class="tabs">
+  <li class="selected">tab1</li>
+  <li>tab2</li>
+  <li>tab3</li>
+  <li>tab4</li>
+</ul>
+<div id="content">
+<ul class="tab1 selected">
+  <li>here is tab1 text</li>
+  <li>here is tab1 text</li>
+  <li>here is tab1 text</li>
+  <li>here is tab1 text</li>
+</ul>
+<ul class="tab2">
+  <li>here is tab2 text</li>
+  <li>here is tab2 text</li>
+  <li>here is tab2 text</li>
+  <li>here is tab2 text</li>
+</ul>
+<ul class="tab3">
+  <li>here is tab3 text</li>
+  <li>here is tab3 text</li>
+  <li>here is tab3 text</li>
+  <li>here is tab3 text</li>
+</ul>
+<ul class="tab4">
+  <li>here is tab4 text</li>
+  <li>here is tab4 text</li>
+</ul>
+</div>
+
+</body>
+</html>
